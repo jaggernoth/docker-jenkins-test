@@ -1,0 +1,134 @@
+name: dash
+channels: !!python/object/new:ruamel_yaml.comments.CommentedSeq
+  listitems:
+  - MickC
+  - defaults
+  state:
+    _yaml_format: !!python/object:ruamel_yaml.comments.Format
+      _flow_style: false
+    _yaml_line_col: !!python/object:ruamel_yaml.comments.LineCol
+      col: 2
+      data:
+        0:
+        - 1
+        - 4
+        1:
+        - 2
+        - 4
+      line: 1
+dependencies:
+- anaconda-client=1.6.3=py34_0
+- binstar=0.11.0=py34_0
+- clyent=0.3.4=py34_0
+- cycler=0.10.0=py34_0
+- dbus=1.10.20=0
+- expat=2.1.0=0
+- flask=0.10.1=py34_1
+- flask-login=0.2.11=py34_0
+- flask-wtf=0.11=py34_0
+- fontconfig=2.12.1=3
+- freetype=2.5.5=2
+- geos=3.5.0=0
+- glib=2.50.2=1
+- gst-plugins-base=1.8.0=0
+- gstreamer=1.8.0=0
+- gunicorn=19.1.0=py34_0
+- hugo::flask-sqlalchemy=2.0=py34_0
+- icu=54.1=0
+- itsdangerous=0.24=py34_0
+- jinja2=2.7.3=py34_1
+- jpeg=9b=0
+- libffi=3.2.1=1
+- libgcc=5.2.0=0
+- libgfortran=3.0.0=1
+- libiconv=1.14=0
+- libpng=1.6.30=1
+- libxcb=1.12=1
+- libxml2=2.9.4=0
+- markupsafe=0.23=py34_0
+- matplotlib=2.0.0=np111py34_0
+- mkl=11.3.3=0
+- numpy=1.11.1=py34_0
+- openssl=1.0.1k=1
+- pandas=0.18.1=np111py34_0
+- pastedeploy=1.5.2=py34_1
+- pcre=8.39=1
+- pip=7.1.0=py34_0
+- psycopg2=2.6=py34_1
+- pyparsing=2.2.0=py34_0
+- pyqt=5.6.0=py34_2
+- python=3.4.3=1
+- python-dateutil=2.4.2=py34_0
+- pytz=2015.4=py34_0
+- pyyaml=3.11=py34_0
+- qt=5.6.2=5
+- readline=6.2=2
+- requests=2.14.2=py34_0
+- scikit-learn=0.17.1=np111py34_2
+- scipy=0.18.0=np111py34_0
+- setuptools=18.0.1=py34_0
+- shapely=1.5.16=py34_0
+- sip=4.18=py34_0
+- six=1.9.0=py34_0
+- sqlalchemy=1.0.4=py34_0
+- sqlite=3.8.4.1=1
+- system=5.8=2
+- tk=8.5.18=0
+- werkzeug=0.10.4=py34_0
+- wtforms=2.0.2=py34_0
+- xz=5.0.5=0
+- yaml=0.1.4=0
+- zlib=1.2.8=0
+- pip:
+  - babel==2.3.4
+  - backports-abc==0.5
+  - beautifulsoup4==4.6.0
+  - bokeh==0.12.4
+  - boto3==1.4.6
+  - botocore==1.6.6
+  - branca==0.2.0
+  - certifi==2015.4.28
+  - chardet==3.0.4
+  - docutils==0.13.1
+  - flask-admin==1.4.0
+  - flask-babel==0.11.1
+  - flask-bcrypt==0.6.0
+  - flask-cache==0.13.1
+  - flask-excel==0.0.3
+  - flask-sqlalchemy==2.0
+  - folium==0.4.0
+  - future==0.15.0
+  - geopy==1.11.0
+  - google==1.9.3
+  - googlemaps==2.5.1
+  - gspread==0.6.2
+  - httplib2==0.10.3
+  - idna==2.6
+  - jdcal==1.2
+  - jmespath==0.9.2
+  - newrelic==2.78.0.57
+  - oauth2client==4.1.2
+  - oauthlib==1.0.3
+  - openpyxl==2.2.2
+  - protobuf==3.3.0
+  - py-bcrypt==0.4
+  - py3-ortools==5.1.4041
+  - pyasn1==0.3.6
+  - pyasn1-modules==0.1.4
+  - pyexcel==0.1.7
+  - pyexcel-io==0.0.8
+  - pyexcel-webio==0.0.3
+  - pyexcel-xls==0.0.7
+  - pyexcel-xlsx==0.0.7
+  - pymysql==0.7.11
+  - python-http-client==1.2.3
+  - requests-oauthlib==0.6.1
+  - rsa==3.4.2
+  - s3transfer==0.1.10
+  - sendgrid==2.2.1
+  - smtpapi==0.3.1
+  - texttable==0.8.3
+  - tornado==4.4.2
+  - urllib3==1.22
+  - xlrd==0.9.4
+  - xlwt-future==0.8.0
